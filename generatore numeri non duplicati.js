@@ -22,8 +22,11 @@
 // console.log(myArray);
 
 const myArray = [];
-while (myArray.length < 10) {
-   let numero =prompt ("inserisci un numero")
+let somma = 0;
+while (somma < 50) {
+    let numero =parseInt(prompt ("inserisci un numero"));
     myArray.push(numero);
-}
-console.log(myArray);
+    somma += numero;
+} ;
+
+console.log(somma);
