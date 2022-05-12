@@ -10,16 +10,16 @@
 // console.log(array);
 
 
-//  const myArray = [];
-// while (myArray.length <10) {
-//     let randomNumber = Math.floor(Math.random()*100 +1);
-//     let trovato = myArray.includes(randomNumber);
-//     if (trovato) {
-//         console.log();
-//         myArray.push(randomNumber);
-//     }
-// }
-// console.log(myArray);
+const array = [];
+while (array.length <10) {
+    let randomNumber = Math.floor(Math.random()*100 +1);
+    let trovato = array.includes(randomNumber);
+    if (trovato) {
+        console.log();
+        array.push(randomNumber);
+    }
+}
+console.log(myArray);
 
 const myArray = [];
 let somma = 0;
